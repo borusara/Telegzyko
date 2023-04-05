@@ -10,11 +10,11 @@ class Config(object):
     log = True
     APP_ID = getenv("API_ID", "6435225")
     API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    TOKEN = getenv("TOKEN", "")
-    OWNER_ID = getenv("OWNER_ID", "")
-    ASSISTANT_ID = getenv("ASSISTANT_ID", "")
-    STRING_SESSION = getenv("STRING_SESSION", "") #telethon
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "")
+    TOKEN = getenv("TOKEN", "6107040564:AAFf27c69JZkbmxVajttlf7iaTaNff2idvY0")
+    OWNER_ID = getenv("OWNER_ID", "1981344911")
+    ASSISTANT_ID = getenv("ASSISTANT_ID", "5968775445")
+    STRING_SESSION = getenv("STRING_SESSION", "1BVtsOKIBu5L8yd8gDHp4RJarwqj5mWI6mEWuE62x1wPxUQsLO1rt-Gr4ABVtD-a-Goi7XHUM5XfsCAdOANSFyQTI4O-osrMHfGXsQwvjLeldtE7izpxSXJr-28wYIiJIUfJE4U7cMBPJ4UNAqKzJZOPdQ2Ehlfy8jEfxVcuZ5tYfiljAs2M0bAsFjw47d0xIVV0igVDSPyRBXsuPQo59b8zCAn1Bzo8rWWQqd20z47xbTlvaZMC3nXtFGqbJvFRnDFbPmLYFgcn1uk7H7BXgm4q5rrvmD4b1rWaTLCEH45Ox-NMbbnXzhEzTrAumRr_M9U8a0FPQzHGfUaqELMvCd4VfDBhW2Fw=") #telethon
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "Shoshuke")
     DB_URI = getenv("DATABASE_URL", "")
     DB_URI = DB_URI.replace("postgres", "postgresql")
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001509525202")
