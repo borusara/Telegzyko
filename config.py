@@ -8,14 +8,14 @@ if os.path.exists("local.env"):
 load_dotenv()
 class Config(object):
     log = True
-    APP_ID = getenv("API_ID", "6435225")
-    API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
+    APP_ID = getenv("API_ID", "20845525")
+    API_HASH = getenv("API_HASH", "0050453e7ad58679e823fa5767117ff7")
     TOKEN = getenv("TOKEN", "6107040564:AAFf27c69JZkbmxVajttlf7iaTaNff2idvY0")
     OWNER_ID = getenv("OWNER_ID", "1981344911")
     ASSISTANT_ID = getenv("ASSISTANT_ID", "5968775445")
-    STRING_SESSION = getenv("STRING_SESSION", "1BVtsOKIBu5L8yd8gDHp4RJarwqj5mWI6mEWuE62x1wPxUQsLO1rt-Gr4ABVtD-a-Goi7XHUM5XfsCAdOANSFyQTI4O-osrMHfGXsQwvjLeldtE7izpxSXJr-28wYIiJIUfJE4U7cMBPJ4UNAqKzJZOPdQ2Ehlfy8jEfxVcuZ5tYfiljAs2M0bAsFjw47d0xIVV0igVDSPyRBXsuPQo59b8zCAn1Bzo8rWWQqd20z47xbTlvaZMC3nXtFGqbJvFRnDFbPmLYFgcn1uk7H7BXgm4q5rrvmD4b1rWaTLCEH45Ox-NMbbnXzhEzTrAumRr_M9U8a0FPQzHGfUaqELMvCd4VfDBhW2Fw=") #telethon
+    STRING_SESSION = getenv("STRING_SESSION", "1BVtsOKIBuxAXZb_KMYTKQ0YH9Babu6EyRChCBqRku74DP8xuXVKmIIjNl788gyVhBeI9wk_MGw6mB53h3cYBmv8jq-xBAVwoqpvVsWqR5X-lI9FN6fNk8yX4l-4RBFtsfqiKLRQ6TYGIDvyNHwGKN6BmTYKtWs90euilDOc0HzQwazdjqlsN63ptER4EWl_rHksD5H4jD2-qcW5trsPSUat2BGCDkA7u7uUvzTrH8kibfudUWqGql3_kjd1kP8Z7Y5n4RmrKozuoqiL12Sez95tSfyhX_oVyZETlK9rYynI_XTOuQ6X5ThN-JJj3RaeVMCJxCLrmuZ6jf-4tvOCaY6CLwy3HmTk=") #telethon
     OWNER_USERNAME = getenv("OWNER_USERNAME", "Shoshuke")
-    DB_URI = getenv("DATABASE_URL", "")
+    DB_URI = getenv("DATABASE_URL", "postgres://ddogyfnk:m7RIAHJKwpOCpyYJCuvkhDudwiK-88lY@floppy.db.elephantsql.com/ddogyfnk")
     DB_URI = DB_URI.replace("postgres", "postgresql")
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001509525202")
     GBAN_LOGS = getenv("GBAN_LOGS", "-1001509525202")
